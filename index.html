@@ -1,1 +1,704 @@
-<h1>seyed</h1>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>BreezyCV - Resume / CV / vCard Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="BreezyCV - Resume / CV / vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
+    <meta name="author" content="lmpixels" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+
+  <body>
+    <!-- Animated Background -->
+    <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
+    <!-- /Animated Background -->
+
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div class="page">
+      <div class="page-content">
+      <div class="page-content">
+
+          <header id="site_header" class="header mobile-menu-hide">
+            <div class="header-content">
+              <div class="header-photo">
+                <img src="img/main_photo.jpg" alt="Alex Smith">
+              </div>
+              <div class="header-titles">
+                <h2>mehdi hashemi</h2>
+                <h4>Web Designer</h4>
+              </div>
+            </div>
+
+            <ul class="main-menu">
+              <li class="active">
+                <a href="#home" class="nav-anim">
+                  <span class="menu-icon lnr lnr-home">
+                    <svg id="Outline" viewBox="0 0 24 24" width="24" height="24" fill="#FFBF08"><path d="M23.121,9.069,15.536,1.483a5.008,5.008,0,0,0-7.072,0L.879,9.069A2.978,2.978,0,0,0,0,11.19v9.817a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V11.19A2.978,2.978,0,0,0,23.121,9.069ZM15,22.007H9V18.073a3,3,0,0,1,6,0Zm7-1a1,1,0,0,1-1,1H17V18.073a5,5,0,0,0-10,0v3.934H3a1,1,0,0,1-1-1V11.19a1.008,1.008,0,0,1,.293-.707L9.878,2.9a3.008,3.008,0,0,1,4.244,0l7.585,7.586A1.008,1.008,0,0,1,22,11.19Z"/>
+                    </svg>
+                  </span>
+                  <span class="link-text">Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#about-me" class="nav-anim">
+                  <span class="menu-icon lnr lnr-user">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="#FFBF08">
+                      <g id="_01_align_center" data-name="01 align center"><path d="M21,24H19V18.957A2.96,2.96,0,0,0,16.043,16H7.957A2.96,2.96,0,0,0,5,18.957V24H3V18.957A4.963,4.963,0,0,1,7.957,14h8.086A4.963,4.963,0,0,1,21,18.957Z"/><path d="M12,12a6,6,0,1,1,6-6A6.006,6.006,0,0,1,12,12ZM12,2a4,4,0,1,0,4,4A4,4,0,0,0,12,2Z"/></g>
+                    </svg>
+                  </span>
+                  <span class="link-text">About Me</span>
+                </a>
+              </li>
+              <li>
+                <a href="#resume" class="nav-anim">
+                  <span class="menu-icon lnr lnr-graduation-hat">
+                    <svg id="Outline" viewBox="0 0 24 24" width="24" height="24" fill="#FFBF08"><path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"/>
+                    </svg>
+                  </span>
+                  <span class="link-text">Resume</span>
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio" class="nav-anim">
+                  <span class="menu-icon lnr lnr-briefcase">
+                    <svg id="Outline" viewBox="0 0 24 24" width="24" height="24" fill="#FFBF08"><path d="M19,1H5A5.006,5.006,0,0,0,0,6V18a5.006,5.006,0,0,0,5,5H19a5.006,5.006,0,0,0,5-5V6A5.006,5.006,0,0,0,19,1ZM5,3H19a3,3,0,0,1,2.78,1.887l-7.658,7.659a3.007,3.007,0,0,1-4.244,0L2.22,4.887A3,3,0,0,1,5,3ZM19,21H5a3,3,0,0,1-3-3V7.5L8.464,13.96a5.007,5.007,0,0,0,7.072,0L22,7.5V18A3,3,0,0,1,19,21Z"/>
+                    </svg>
+                  </span>
+                  <span class="link-text">Portfolio</span>
+                </a>
+              </li>
+              <li>
+                <a href="#blog" class="nav-anim">
+                  <span class="menu-icon lnr lnr-book">
+                    <svg id="Outline" viewBox="0 0 24 24" width="24" height="24" fill="#FFBF08"><path d="M18.656.93,6.464,13.122A4.966,4.966,0,0,0,5,16.657V18a1,1,0,0,0,1,1H7.343a4.966,4.966,0,0,0,3.535-1.464L23.07,5.344a3.125,3.125,0,0,0,0-4.414A3.194,3.194,0,0,0,18.656.93Zm3,3L9.464,16.122A3.02,3.02,0,0,1,7.343,17H7v-.343a3.02,3.02,0,0,1,.878-2.121L20.07,2.344a1.148,1.148,0,0,1,1.586,0A1.123,1.123,0,0,1,21.656,3.93Z"/><path d="M23,8.979a1,1,0,0,0-1,1V15H18a3,3,0,0,0-3,3v4H5a3,3,0,0,1-3-3V5A3,3,0,0,1,5,2h9.042a1,1,0,0,0,0-2H5A5.006,5.006,0,0,0,0,5V19a5.006,5.006,0,0,0,5,5H16.343a4.968,4.968,0,0,0,3.536-1.464l2.656-2.658A4.968,4.968,0,0,0,24,16.343V9.979A1,1,0,0,0,23,8.979ZM18.465,21.122a2.975,2.975,0,0,1-1.465.8V18a1,1,0,0,1,1-1h3.925a3.016,3.016,0,0,1-.8,1.464Z"/>
+                    </svg>
+                  </span>
+                  <span class="link-text">Blog</span>
+                </a>
+              </li>
+              <li>
+                <a href="#contact" class="nav-anim">
+                  <span class="menu-icon lnr lnr-envelope">
+                    <svg id="Outline" viewBox="0 0 24 24" width="24" height="24" fill="#FFBF08"><path d="M21,12.424V11A9,9,0,0,0,3,11v1.424A5,5,0,0,0,5,22a2,2,0,0,0,2-2V14a2,2,0,0,0-2-2V11a7,7,0,0,1,14,0v1a2,2,0,0,0-2,2v6H14a1,1,0,0,0,0,2h5a5,5,0,0,0,2-9.576ZM5,20H5a3,3,0,0,1,0-6Zm14,0V14a3,3,0,0,1,0,6Z"/>
+                    </svg>
+                  </span>
+                  <span class="link-text">Contact</span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="social-links">
+              <ul class="main-footer__social-networks">
+                <li>
+                  <a href="">
+                    <svg width="21" height="17" viewBox="0 0 21 17" fill="#FFBF08" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.832738 7.93594C2.83805 6.83453 5.07653 5.91529 7.16806 4.99134C10.7663 3.47799 14.3788 1.99086 18.0278 0.606366C18.7378 0.370461 20.0134 0.13976 20.1385 1.18886C20.07 2.67385 19.7883 4.15014 19.595 5.62643C19.1045 8.87293 18.5375 12.1083 17.9846 15.3441C17.7942 16.422 16.44 16.9799 15.5736 16.2902C13.4914 14.8877 11.3931 13.4989 9.33749 12.064C8.66412 11.3817 9.28853 10.402 9.88993 9.91476C11.6049 8.22951 13.4237 6.79769 15.0491 5.02534C15.4875 3.96961 14.1921 4.85935 13.7648 5.13196C11.4169 6.74523 9.12656 8.457 6.65121 9.87485C5.38681 10.5689 3.91312 9.97577 2.64928 9.58849C1.51609 9.12067 -0.144451 8.64936 0.832623 7.93602L0.832738 7.93594Z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg width="20" height="19" viewBox="0 0 20 19" fill="#FFBF08" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0414 18.59H10.0376C8.50756 18.5895 7.00418 18.2046 5.66892 17.4742L0.822693 18.749L2.11962 13.9987C1.31961 12.6084 0.898652 11.0314 0.899338 9.41567C0.901344 4.36122 5.00237 0.249023 10.0413 0.249023C12.4868 0.250082 14.7821 1.20477 16.5081 2.93757C18.2341 4.67028 19.1841 6.97347 19.1831 9.42291C19.1811 14.4762 15.0817 18.588 10.0414 18.59ZM5.89345 15.8145L6.17091 15.9796C7.33752 16.6738 8.67481 17.0411 10.0383 17.0417H10.0414C14.2293 17.0417 17.6379 13.6235 17.6396 9.4222C17.6404 7.38625 16.8508 5.47194 15.4162 4.0317C13.9816 2.59147 12.0739 1.79792 10.0443 1.79721C5.85313 1.79721 2.4445 5.21501 2.44284 9.41602C2.44225 10.8557 2.84396 12.2579 3.60457 13.471L3.78523 13.7593L3.01763 16.5709L5.89345 15.8145ZM14.3341 11.3966C14.4934 11.4738 14.601 11.5259 14.647 11.6028C14.704 11.6983 14.704 12.1569 14.5138 12.6921C14.3234 13.2271 13.4108 13.7154 12.9719 13.7812C12.5784 13.8402 12.0804 13.8648 11.5332 13.6904C11.2014 13.5849 10.776 13.4439 10.231 13.2079C8.08956 12.2807 6.6424 10.1994 6.36889 9.80605C6.34973 9.77849 6.33633 9.75922 6.32885 9.74921L6.32701 9.74674C6.20613 9.58501 5.39614 8.50129 5.39614 7.37969C5.39614 6.32459 5.91299 5.77155 6.15089 5.51699C6.16719 5.49955 6.18218 5.48351 6.19561 5.46881C6.40498 5.23949 6.65246 5.18216 6.80474 5.18216C6.957 5.18216 7.10944 5.18357 7.24253 5.19027C7.25895 5.1911 7.27603 5.191 7.29369 5.19089C7.42681 5.19011 7.59276 5.18913 7.75647 5.58347C7.81945 5.73523 7.91161 5.9602 8.0088 6.19749C8.20536 6.67734 8.42253 7.20753 8.46074 7.28425C8.51786 7.39891 8.55592 7.53263 8.47978 7.68557C8.46835 7.7085 8.45778 7.73014 8.44768 7.75082C8.3905 7.86789 8.34843 7.95401 8.25137 8.06765C8.2132 8.11234 8.17375 8.16051 8.13431 8.20869C8.05572 8.30466 7.97715 8.40061 7.90872 8.46897C7.79437 8.58319 7.67533 8.70711 7.80858 8.93643C7.94182 9.16576 8.40025 9.91582 9.07932 10.5232C9.80927 11.1761 10.4437 11.4521 10.7653 11.5919C10.8281 11.6193 10.8789 11.6414 10.9163 11.6601C11.1446 11.7748 11.2779 11.7556 11.4111 11.6028C11.5444 11.4499 11.9821 10.9339 12.1344 10.7046C12.2866 10.4754 12.439 10.5136 12.6483 10.59C12.8577 10.6665 13.9808 11.2206 14.2092 11.3352C14.2538 11.3576 14.2955 11.3778 14.3341 11.3966Z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg width="20" height="16" viewBox="0 0 20 16" fill="#FFBF08" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.9108 4.62941L9.95079 5.29067L9.28428 5.2097C6.85818 4.89932 4.73867 3.8467 2.93909 2.07884L2.05929 1.20166L1.83268 1.84942C1.35279 3.2934 1.65938 4.81835 2.65915 5.84397C3.19236 6.41077 3.07239 6.49174 2.1526 6.15436C1.83268 6.0464 1.55274 5.96543 1.52608 6.00591C1.43277 6.10038 1.7527 7.32843 2.00597 7.81426C2.35256 8.48901 3.05906 9.15027 3.83221 9.54163L4.48539 9.85202L3.71224 9.86551C2.96575 9.86551 2.93909 9.87901 3.01907 10.1624C3.28567 11.0396 4.33876 11.9707 5.51182 12.3756L6.3383 12.659L5.61846 13.0908C4.55205 13.7116 3.299 14.0625 2.04596 14.0895C1.4461 14.103 0.952881 14.157 0.952881 14.1974C0.952881 14.3324 2.57917 15.0881 3.52562 15.385C6.36496 16.2622 9.73751 15.8843 12.2703 14.3864C14.0698 13.3203 15.8694 11.2015 16.7092 9.15027C17.1625 8.05717 17.6157 6.05989 17.6157 5.10174C17.6157 4.48097 17.6557 4.4 18.4022 3.65777C18.8421 3.22592 19.2553 2.75359 19.3353 2.61864C19.4686 2.36224 19.4553 2.36224 18.7754 2.59165C17.6423 2.99651 17.4824 2.94253 18.0422 2.33525C18.4555 1.9034 18.9487 1.12069 18.9487 0.891271C18.9487 0.850786 18.7488 0.918261 18.5221 1.03972C18.2822 1.17467 17.749 1.37709 17.3491 1.49855L16.6292 1.72797L15.9761 1.28263C15.6161 1.03972 15.1096 0.769815 14.843 0.688845C14.1631 0.499913 13.1234 0.526903 12.5102 0.742825C10.8439 1.3501 9.79083 2.91554 9.9108 4.62941Z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg width="19" height="19" viewBox="0 0 19 19" fill="#FFBF08" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.31112 0.25C6.8059 0.25 6.4915 0.260984 5.50756 0.305886C4.52554 0.35098 3.85523 0.506883 3.2687 0.73563C2.662 0.971893 2.14735 1.28794 1.63463 1.80228C1.12152 2.31643 0.806346 2.83251 0.569969 3.44071C0.341279 4.02905 0.185616 4.70142 0.141415 5.68578C0.0974071 6.67246 0.0858765 6.98793 0.0858765 9.5001C0.0858765 12.0123 0.0970227 12.3266 0.141608 13.3133C0.186769 14.298 0.34224 14.9702 0.570161 15.5583C0.805962 16.1667 1.12113 16.6828 1.63405 17.1969C2.14659 17.7115 2.66123 18.0283 3.26755 18.2646C3.85446 18.4933 4.52496 18.6492 5.50679 18.6943C6.49074 18.7392 6.80494 18.7502 9.30996 18.7502C11.8154 18.7502 12.1288 18.7392 13.1128 18.6943C14.0948 18.6492 14.7659 18.4933 15.3528 18.2646C15.9593 18.0283 16.4732 17.7115 16.9857 17.1969C17.4988 16.6828 17.814 16.1667 18.0503 15.5585C18.2771 14.9702 18.4328 14.2978 18.4789 13.3134C18.5231 12.3268 18.5346 12.0123 18.5346 9.5001C18.5346 6.98793 18.5231 6.67265 18.4789 5.68597C18.4328 4.70122 18.2771 4.02905 18.0503 3.4409C17.814 2.83251 17.4988 2.31643 16.9857 1.80228C16.4726 1.28775 15.9595 0.9717 15.3522 0.73563C14.7641 0.506883 14.0934 0.35098 13.1114 0.305886C12.1275 0.260984 11.8142 0.25 9.30824 0.25H9.31112ZM8.48371 1.91748C8.64439 1.91723 8.81725 1.91731 9.00378 1.91739L9.31122 1.91748C11.7742 1.91748 12.0661 1.92635 13.0387 1.97067C13.9381 2.01191 14.4262 2.16261 14.7514 2.28922C15.1818 2.45688 15.4887 2.6573 15.8114 2.98105C16.1343 3.3048 16.3341 3.61314 16.5017 4.04481C16.628 4.37049 16.7784 4.85998 16.8194 5.76186C16.8636 6.73698 16.8732 7.02989 16.8732 9.49851C16.8732 11.9671 16.8636 12.2601 16.8194 13.2352C16.7782 14.1371 16.628 14.6265 16.5017 14.9522C16.3345 15.3839 16.1343 15.6913 15.8114 16.0148C15.4885 16.3386 15.182 16.539 14.7514 16.7067C14.4266 16.8338 13.9381 16.9842 13.0387 17.0254C12.0663 17.0697 11.7742 17.0794 9.31122 17.0794C6.8481 17.0794 6.55618 17.0697 5.58377 17.0254C4.68438 16.9838 4.19625 16.8331 3.8709 16.7065C3.44042 16.5388 3.13294 16.3384 2.81009 16.0146C2.48723 15.6909 2.28737 15.3833 2.11979 14.9514C1.99353 14.6258 1.84305 14.1363 1.80212 13.2344C1.75792 12.2593 1.74908 11.9664 1.74908 9.4962C1.74908 7.02604 1.75792 6.73466 1.80212 5.75955C1.84325 4.85766 1.99353 4.36818 2.11979 4.04211C2.28698 3.61044 2.48723 3.30211 2.81009 2.97835C3.13294 2.6546 3.44042 2.45418 3.8709 2.28614C4.19606 2.15895 4.68438 2.00863 5.58377 1.9672C6.43473 1.92866 6.7645 1.9171 8.48371 1.91517V1.91748ZM13.1283 4.56233C13.1283 3.94932 13.6241 3.4527 14.2352 3.4527V3.45232C14.8464 3.45232 15.3422 3.94951 15.3422 4.56233C15.3422 5.17515 14.8464 5.67234 14.2352 5.67234C13.6241 5.67234 13.1283 5.17515 13.1283 4.56233ZM9.31081 4.75009C6.6948 4.75019 4.57385 6.8771 4.57385 9.5004C4.57385 12.1238 6.6949 14.2497 9.311 14.2497C11.9271 14.2497 14.0474 12.1238 14.0474 9.5004C14.0474 6.87703 11.9269 4.75009 9.31081 4.75009ZM12.3858 9.50008C12.3858 7.7971 11.0091 6.41672 9.31099 6.41672C7.61272 6.41672 6.23616 7.7971 6.23616 9.50008C6.23616 11.2029 7.61272 12.5834 9.31099 12.5834C11.0091 12.5834 12.3858 11.2029 12.3858 9.50008Z"></path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+
+            <div class="copyrights">© 2020 All rights reserved.</div>
+          </header>
+
+          <!-- Mobile Navigation -->
+          <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <!-- End Mobile Navigation -->
+
+          <!-- Arrows Nav -->
+          <div class="lmpixels-arrows-nav">
+            <div class="lmpixels-arrow-right" style="cursor: pointer">
+              <svg id="Outline" viewBox="0 0 24 24" width="24" height="24" fill="#FFBF08">
+                <path d="M17.17,24a1,1,0,0,1-.71-.29L8.29,15.54a5,5,0,0,1,0-7.08L16.46.29a1,1,0,1,1,1.42,1.42L9.71,9.88a3,3,0,0,0,0,4.24l8.17,8.17a1,1,0,0,1,0,1.42A1,1,0,0,1,17.17,24Z"/>
+              </svg>
+            </div>
+            <div class="lmpixels-arrow-left" style="cursor: pointer">
+              <svg id="Outline" viewBox="0 0 24 24" width="24" height="24" fill="#FFBF08">
+                <path d="M7,24a1,1,0,0,1-.71-.29,1,1,0,0,1,0-1.42l8.17-8.17a3,3,0,0,0,0-4.24L6.29,1.71A1,1,0,0,1,7.71.29l8.17,8.17a5,5,0,0,1,0,7.08L7.71,23.71A1,1,0,0,1,7,24Z"/>
+              </svg>
+            </div>
+          </div>
+          <!-- End Arrows Nav -->
+
+          <div class="content-area">
+            <div class="animated-sections">
+              <!-- Home Subpage -->
+              <section data-id="home" class="animated-section start-page">
+                <div class="section-content vcentered">
+
+                    <div class="row">
+                      <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="title-block">
+                          <h2>seyed mehdi hashemi</h2>
+                          <div class="owl-carousel text-rotation">                                    
+                            <div class="item">
+                              <div class="sp-subtitle">Web Designer</div>
+                            </div>
+                            
+                            <div class="item">
+                              <div class="sp-subtitle">Frontend-developer</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+              </section>
+              <!-- End of Home Subpage -->
+
+              <!-- About Me Subpage -->
+              <section data-id="about-me" class="animated-section">
+                <div class="page-title">
+                  <h2>About <span>Me</span></h2>
+                </div>
+                <div class="section-content">
+                  <!-- Personal Information -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                      <p>Never pursue a career that you do not enjoy. If you are happy in what you do, you will love yourself and have inner peace. And if you have this, along with physical health, you will have much more success than you can imagine.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-5">
+                      <div class="info-list">
+                        <ul>
+                          <li>
+                            <span class="title">Age</span>
+                            <span class="value">22</span>
+                          </li>
+
+                          <li>
+                            <span class="title">Residence</span>
+                            <span class="value">IRan</span>
+                          </li>
+
+                          <li>
+                            <span class="title">Address</span>
+                            <span class="value">Mashhad Sarafrazan Boulevard Sarafrazan 14</span>
+                          </li>
+
+                          <li>
+                            <span class="title">e-mail</span>
+                            <span class="value">
+                              <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="67020a060e0b27021f060a170b024904080a">[seyedmehdi8403@gmail.com]</a>
+                            </span>
+                          </li>
+
+                          <li>
+                            <span class="title">Phone</span>
+                            <span class="value">0991 627 8403</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Personal Information -->
+                  <!-- Services -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>What <span>I Do</span></h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-store"></i>
+                            </div>
+                            <div class="info-block-w-icon">
+                              <div class="ci-icon">
+                              <i class="lnr lnr-laptop-phone"></i>
+                              </div>
+                              <div class="ci-text">
+                              <h4>Web Design</h4>
+                              <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <!-- End of Services -->
+                </div>
+
+
+
+
+              </section>
+              <!-- End of About Me Subpage -->
+
+              <!-- Resume Subpage -->
+              <section data-id="resume" class="animated-section">
+                <div class="page-title">
+                  <h2>Resume</h2>
+                </div>
+
+                <div class="section-content">
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+
+                      
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2019</h5>
+                            <span class="item-company">University of Studies</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Frontend Development</h4>
+                            <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                      </div>
+                      <!-- End of Design Skills -->
+
+
+                      <!-- Coding Skills -->
+
+
+                      <div class="skills-info skills-second-style">
+                        <!-- Skill 5 -->
+                        <div class="skill clearfix">
+                          <h4>JavaScript</h4>
+                          <div class="skill-value">50%</div>
+                        </div>
+                        <div class="skill-container skill-5">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 5 -->
+
+                        <!-- Skill 6 -->
+                        <div class="skill clearfix">
+                          <h4>PHP</h4>
+                          <div class="skill-value">35%</div>
+                        </div>
+                        <div class="skill-container skill-6">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 6 -->
+
+                        <!-- Skill 7 -->
+                        <div class="skill clearfix">
+                          <h4>HTML/CSS</h4>
+                          <div class="skill-value">100%</div>
+                        </div>
+                        <div class="skill-container skill-7">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 7 -->
+
+                      </div>
+                      <!-- End of Coding Skills -->
+
+                      <div class="white-space-10"></div>
+
+                      <!-- Knowledges -->
+                      <div class="block-title">
+                        <h3>Knowledges</h3>
+                      </div>
+
+                      <ul class="knowledges">
+                        <li>Marketing</li>
+                        <li>Print</li>
+                        <li>Digital Design</li>
+                        <li>Social Media</li>
+                        <li>Time Management</li>
+                        <li>Communication</li>
+                        <li>Problem-Solving</li>
+                        <li>Social Networking</li>
+                        <li>Flexibility</li>
+                      </ul>
+                      <!-- End of Knowledges -->
+                    </div>
+                    <!-- End of Skills & Certificates -->
+                  </div>
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Certificates -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>Certificates</h3>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <!-- Certificate 1 -->
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="certificate-item clearfix">
+                        <div class="certi-logo">
+                          <img src="img/clients/client-1.png" alt="logo">
+                        </div>
+                        
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Psyhology of Intertnation Design</h4>
+                          </div>
+                          <div class="certi-id">
+                            <span>Membership ID: XXXX</span>
+                          </div>
+                          <div class="certi-date">
+                            <span>19 April 2018</span>
+                          </div>
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Certificate 1 -->
+
+                    <!-- Certificate 2 -->
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="certificate-item clearfix">
+                        <div class="certi-logo">
+                          <img src="img/clients/client-1.png" alt="logo">
+                        </div>
+                        
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Psyhology of Intertnation Design</h4>
+                          </div>
+                          <div class="certi-id">
+                            <span>Membership ID: XXXX</span>
+                          </div>
+                          <div class="certi-date">
+                            <span>19 April 2018</span>
+                          </div>
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Certificate 2 -->
+
+                  </div>
+                  <!-- End of Certificates -->
+                </div>
+              </section>
+              <!-- End of Resume Subpage -->
+
+              <!-- Portfolio Subpage -->
+              <section data-id="portfolio" class="animated-section">
+                <div class="page-title">
+                  <h2>Portfolio</h2>
+                </div>
+
+                <div class="section-content">
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <!-- Portfolio Content -->
+                      <div class="portfolio-content">
+
+                        <ul class="portfolio-filters">
+                          <li class="active">
+                            <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
+                          </li>
+                        </ul>
+
+                        <!-- Portfolio Grid -->
+                        <div class="portfolio-grid three-columns">
+                          
+                          <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/1.png" alt="SoundCloud Audio" title="" />
+                              <a href="img/portfolio/full/1.png" class="lightbox mfp-img" title="SoundCloud Audio"></a>
+                            </div>
+
+                            <i class="fa fa-volume-up"></i>
+                            <h4 class="name">Detailed Project 1</h4>
+                            <span class="category">Detailed Project 1</span>
+                          </figure>
+
+                          <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/2.png" alt="SoundCloud Audio" title="" />
+                              <a href="img/portfolio/full/2.png" class="lightbox mfp-img" title="SoundCloud Audio"></a>
+                            </div>
+
+                            <i class="fa fa-volume-up"></i>
+                            <h4 class="name">Detailed Project 2</h4>
+                            <span class="category">Detailed Project 2</span>
+                          </figure>
+
+                          <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/3.png" alt="SoundCloud Audio" title="" />
+                              <a href="img/portfolio/full/3.png" class="lightbox mfp-img" title="SoundCloud Audio"></a>
+                            </div>
+
+                            <i class="fa fa-volume-up"></i>
+                            <h4 class="name">Detailed Project 3</h4>
+                            <span class="category">Detailed Project 3</span>
+                          </figure>
+
+                          <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/4.png" alt="SoundCloud Audio" title="" />
+                              <a href="img/portfolio/full/4.png" class="lightbox mfp-img" title="SoundCloud Audio"></a>
+                            </div>
+
+                            <i class="fa fa-volume-up"></i>
+                            <h4 class="name">Detailed Project 4</h4>
+                            <span class="category">Detailed Project 4</span>
+                          </figure>
+                        </div>
+                      </div>
+                      <!-- End of Portfolio Content -->
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- End of Portfolio Subpage -->
+
+              <!-- Blog Subpage -->
+              <section data-id="blog" class="animated-section">
+                <div class="page-title">
+                  <h2>Blog</h2>
+                </div>
+
+                <div class="section-content">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="blog-masonry two-columns clearfix">
+
+                        <!-- Blog Post 1 -->
+                        <div class="item post-1">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              <div class="category">
+                                <a href="#" title="View all posts in Design">Design</a>
+                              </div>
+                              <a href="blog-post-1.html">
+                                <img src="img/blog/blog_post_1.jpg" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
+                                <div class="mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date">05 Mar 2020</div>
+                              <a href="blog-post-1.html">
+                                <h4 class="blog-item-title">Why I Switched to Sketch For UI Design</h4>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Blog Post 1 -->
+
+                        <!-- Blog Post 2 -->
+                        <div class="item post-2">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              <div class="category">
+                                <a href="#" title="View all posts in UI">UI</a>
+                              </div>
+                              <a href="blog-post-1.html">
+                                <img src="img/blog/blog_post_2.jpg" class="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title="" />
+                                <div class="mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date">23 Feb 2020</div>
+                              <a href="blog-post-1.html">
+                                <h4 class="blog-item-title">Best Practices for Animated Progress Indicators</h4>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Blog Post 2 -->
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </section>
+              <!-- End of Blog Subpage -->
+
+              <!-- Contact Subpage -->
+              <section data-id="contact" class="animated-section">
+                <div class="page-title">
+                  <h2>Contact</h2>
+                </div>
+
+                <div class="section-content">
+
+                  <div class="row">
+                    <!-- Contact Info -->
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-map-marker"></i>
+                        <h4>mashhad iran</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-phone-handset"></i>
+                        <h4>0991 627 8403</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-envelope"></i>
+                        <h4>
+                          <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6c0d0009142c09140d011c0009420f0301">[seyedmehdi8403@gmail.com]</a>
+                        </h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-checkmark-circle"></i>
+                        <h4>Freelance Available</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+
+                    </div>
+                    <!-- End of Contact Info -->
+
+                    <!-- Contact Form -->
+                    <div class="col-xs-12 col-sm-8">
+                      <div id="map" class="map">
+                          <div class="lmpixels-map">
+                            	<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=San%20Francisco%2C%20S601%20Townsend%20Street%2C%20California%2C%20USA&amp;amp;t=m&amp;amp;z=16&amp;amp;output=embed&amp;amp;iwloc=near&amp;output=embed"></iframe>
+                            </div>
+                      </div>
+                      <div class="block-title">
+                        <h3>How Can I <span>Help You?</span></h3>
+                      </div>
+
+                      <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
+
+                        <div class="messages"></div>
+
+                        <div class="controls two-columns">
+                          <div class="fields clearfix">
+                            <div class="left-column">
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Name is required.">
+                                <label>Full Name</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                                <label>Email Address</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_subject" type="text" name="subject" class="form-control" placeholder="" required="required" data-error="Subject is required.">
+                                <label>Subject</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                            <div class="right-column">
+                              <div class="form-group form-group-with-icon">
+                                <textarea id="form_message" name="message" class="form-control" placeholder="" rows="7" required="required" data-error="Please, leave me a message."></textarea>
+                                <label>Message</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-theme="dark"></div>
+                          <input type="submit" class="button btn-send" value="Send message">
+                        </div>
+                      </form>
+                    </div>
+                    <!-- End of Contact Form -->
+                  </div>
+
+                </div>
+              </section>
+              <!-- End of Contact Subpage -->
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/animating.js"></script>
+
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script src='js/perfect-scrollbar.min.js'></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"722daaa6adb16d7a","version":"2022.6.0","r":1,"token":"94b99c0576dc45bf9d669fb5e9256829","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
